@@ -1,8 +1,23 @@
-/* CSS para centralizar as imagens */
 img {
-  display: block;            /* Faz a imagem se comportar como um bloco */
-  margin-left: auto;         /* Margem à esquerda automática */
-  margin-right: auto;        /* Margem à direita automática */
-  max-width: 100%;           /* Impede que a imagem ultrapasse a largura do contêiner */
-  height: auto;              /* Mantém a proporção da imagem */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+p {
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #555;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
