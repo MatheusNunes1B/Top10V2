@@ -8,15 +8,6 @@ body {
   100% { background-color: #cce7ff; }  /* volta para azul */
 }
 
-@keyframes zoomInOut {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
-}
-
 
 img {
   display: block;
@@ -24,7 +15,11 @@ img {
   margin-right: auto;
   max-width: 100%;
   height: auto;
-  animation: zoomInOut 5s infinite alternate;
+  transition: transform 0.3s ease; /* transição suave */
+}
+
+img:hover {
+  transform: scale(1.1); /* aumenta 10% */
 }
 
 h1 {
