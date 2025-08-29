@@ -1,3 +1,14 @@
+body {
+  animation: mudaFundo 10s infinite alternate;
+}
+
+@keyframes mudaFundo {
+  0%   { background-color: #cce7ff; }  /* azul claro */
+  50%  { background-color: #ffddcc; }  /* laranja claro */
+  100% { background-color: #cce7ff; }  /* volta para azul */
+}
+
+
 img {
   display: block;
   margin-left: auto;
